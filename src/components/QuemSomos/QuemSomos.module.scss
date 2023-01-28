@@ -1,0 +1,52 @@
+@import "../../styles/variables.scss";
+
+.quemSomos{
+
+  background-color: $color-branco;
+  min-height: 30rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  padding-left: 1vw;
+  
+
+  & .textoWrapper{
+    width: 50vw;
+    & h2{
+      color: $color-vermelho;
+      font-size: 1.5rem;
+      font-weight: bold;
+      text-align: right;
+    }
+    & h1{
+      color: $color-azul-primario;
+      font-size: 3.75rem;
+      font-weight: bold;
+      text-align: right;
+    }
+
+    & p{
+      width: 100%;
+      text-align: center;
+    }
+    
+  }
+  & button{      
+    align-self: center;
+    margin-top: 5rem;
+    height: 3rem;
+    width: 11rem;
+    text-align: center;
+    color: $color-branco;
+    border-radius: 21px;
+    background: $color-laranja-gradiente;
+    border-radius: 21px;
+    
+    cursor: pointer;
+    &:hover{
+      background: $color-branco;
+      color: $color-laranja;
+      border: 1px solid $color-laranja;
+    }
+  }
+}

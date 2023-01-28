@@ -1,0 +1,64 @@
+@import "../../styles/variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  min-height: 7.5rem;
+  padding: 0 0 0 4rem;
+  max-width: 90vw;
+  color: $color-cinza-escuro;
+  font-weight: 500;
+  line-height: 1.3rem;
+
+  & .logoWrapper {
+    flex-grow: 8;
+
+    & img {
+      height: 4rem;
+    }
+  }
+
+  & .menu {
+
+    flex-grow: 2;
+    display: flex;
+    justify-content: space-between;
+
+
+    & li {
+      cursor: pointer;
+
+      &:after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px $color-azul-primario;
+        transition: transform 250ms ease-in-out;
+        transform: scaleX(0);
+      }
+
+      &:hover:after {
+        transform: scaleX(1);
+      }
+    }
+
+  }
+
+  & button {
+    margin-left: 2rem;
+    background-color: $color-vermelho;
+    color: $color-branco;
+    font-weight: bold;
+    width: 10rem;
+    text-align: center;
+    padding: .5rem 0rem;
+    border-radius: 1rem;
+    cursor:pointer;
+
+    &:hover{
+      background-color: $color-branco;
+      color: $color-vermelho;
+      border: 2px solid $color-vermelho;
+    }
+
+  }
+}
