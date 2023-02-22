@@ -26,8 +26,8 @@ export default function Home() {
         <Header />
         <Hero />
         <QuemSomos />
-        {/* <TiposProdutos />
-        <Caracteristicas />
+         <TiposProdutos />
+        {/*<Caracteristicas />
         <Promocao />
         <MaisProdutos />
         <Lojas />

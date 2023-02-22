@@ -1,3 +1,5 @@
+
+
 @import "../../styles/variables.scss";
 
 .quemSomos{
@@ -11,18 +13,18 @@
   
 
   & .textoWrapper{
-    width: 50vw;
+    width: 100vw;
+    text-align: center;
+    padding: 0 13rem;
     & h2{
       color: $color-vermelho;
       font-size: 1.5rem;
       font-weight: bold;
-      text-align: right;
     }
     & h1{
       color: $color-azul-primario;
       font-size: 3.75rem;
       font-weight: bold;
-      text-align: right;
     }
 
     & p{

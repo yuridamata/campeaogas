@@ -1,0 +1,24 @@
+@import "./variables.scss";
+
+@mixin centerGrid{
+  width: 90rem;
+  padding: 0 10rem;
+}
+
+@mixin mainButton{
+  margin-left: 2rem;
+  background-color: $color-vermelho;
+  color: $color-branco;
+  font-weight: bold;
+  width: 10rem;
+  text-align: center;
+  padding: .5rem 0rem;
+  border-radius: 1rem;
+  cursor:pointer;
+
+  &:hover{
+    background-color: $color-branco;
+    color: $color-vermelho;
+    border: 2px solid $color-vermelho;
+  }
+}
