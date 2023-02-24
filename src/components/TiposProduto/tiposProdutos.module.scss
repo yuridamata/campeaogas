@@ -13,14 +13,17 @@
     width: 25%;
 
 
-    & h1 {
+    & h2 {
       color: $color-azul-primario;
       font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
     }
 
     & p {
       font-size: 1.1rem;
       color: $color-cinza-escuro;
+      margin: 1rem 0;
     }
 
     & button {
@@ -50,6 +53,35 @@
     width: 75%;
     justify-content: center;
     align-items: center;
+
+    & ul {
+      list-style: none;
+      white-space: nowrap;
+
+      & li {
+        display: inline-block;
+
+        & span, img, a {
+          display: block;
+          text-align: center;
+          text-transform: uppercase;
+        }
+
+        & span {
+          color: $color-azul-primario;
+          font-weight: 700;
+        }
+
+        & a {
+          font-size: 0.8rem;
+
+          &:hover {
+            color: $color-laranja;
+          }
+        }
+
+      }
+    }
 
   }
 }
