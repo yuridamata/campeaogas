@@ -27,7 +27,8 @@ export default function Home() {
         <Hero />
         <QuemSomos />
          <TiposProdutos />
-        {/*<Caracteristicas />
+         <Caracteristicas />
+        {/*
         <Promocao />
         <MaisProdutos />
         <Lojas />
