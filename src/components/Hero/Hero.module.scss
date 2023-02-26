@@ -36,6 +36,8 @@
 
   & button{
     background-color: $color-branco;
+    text-transform: uppercase;
+    font-weight: 500;
     color: $color-vermelho;
     font-size: 1.2rem;
     min-width: 10rem;

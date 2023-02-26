@@ -28,8 +28,8 @@ export default function Home() {
         <QuemSomos />
          <TiposProdutos />
          <Caracteristicas />
+         <Promocao />
         {/*
-        <Promocao />
         <MaisProdutos />
         <Lojas />
         <Footer /> */}
