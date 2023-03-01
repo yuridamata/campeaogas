@@ -29,8 +29,8 @@ export default function Home() {
          <TiposProdutos />
          <Caracteristicas />
          <Promocao />
+         <MaisProdutos />
         {/*
-        <MaisProdutos />
         <Lojas />
         <Footer /> */}
       </main>
