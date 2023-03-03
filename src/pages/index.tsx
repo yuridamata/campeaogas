@@ -30,8 +30,8 @@ export default function Home() {
          <Caracteristicas />
          <Promocao />
          <MaisProdutos />
+         <Lojas />
         {/*
-        <Lojas />
         <Footer /> */}
       </main>
     </>
