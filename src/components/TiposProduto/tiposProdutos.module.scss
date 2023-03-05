@@ -86,3 +86,43 @@
 
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tiposProdutos {
+    padding: 7rem 2rem;
+
+    & .texto {
+      width: 100%;
+      margin-bottom: 2rem;
+      text-align: center;
+
+      & h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      & p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+
+      & button {
+        margin: 1.5rem 0;
+      }
+    }
+
+    & .tipos {
+      width: 100%;
+
+      & ul {
+        & li {
+          display: block;
+          margin-bottom: 1.5rem;
+          & a {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}

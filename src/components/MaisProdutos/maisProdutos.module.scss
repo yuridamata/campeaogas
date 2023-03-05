@@ -1,6 +1,6 @@
 @import "../../styles/variables.scss";
 
-.maisProdutos{
+.maisProdutos {
     padding: 4rem 0;
     display: flex;
     flex-direction: column;
@@ -17,9 +17,9 @@
     }
 
     p {
-       color: $color-cinza-escuro;
-       width: 30%;
-       text-align: center;
+        color: $color-cinza-escuro;
+        width: 30%;
+        text-align: center;
     }
 
     & .produtos {
@@ -50,5 +50,20 @@
     & .button:hover {
         background-color: $color-azul-primario;
         color: $color-branco;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .maisProdutos {
+        padding: 6rem 0 2rem;
+
+        & p {
+            width: 80%;
+            line-height: 1.5rem;
+        }
+
+        & .produtos {
+            padding: 2rem 0;
+        }
     }
 }

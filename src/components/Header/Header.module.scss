@@ -48,6 +48,39 @@
 
   & button {
     @include mainButton;
+    text-transform: uppercase;
+  }
+}
 
+@media only screen and (max-width: 767px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    padding: 0 1.5rem;
+
+    & .logoWrapper {
+      flex-grow: 0;
+
+      & img {
+        height: auto;
+        width: 80%;
+      }
+    }
+
+    & .menu {
+      display: none;
+    }
+
+    & button {
+      display: block;
+      margin: 0 0.5rem;
+      padding: 0.8rem;
+      width: auto;
+      font-size: 0.8rem;
+    }
   }
 }
