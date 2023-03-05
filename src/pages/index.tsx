@@ -31,8 +31,7 @@ export default function Home() {
          <Promocao />
          <MaisProdutos />
          <Lojas />
-        {/*
-        <Footer /> */}
+        <Footer />
       </main>
     </>
   )
