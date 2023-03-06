@@ -60,36 +60,69 @@
 
   & .imagem {
     width: 50%;
+    height: auto;
 
   }
 
+}
+
+@media screen and (max-width: 1300px) {
+  .caracteristicas {
+    flex-direction: column;
+    padding: auto;
+
+    & .textos {
+      width: 100%;
+
+      & h2,
+      p {
+        text-align: center;
+        width: 100%;
+      }
+
+      & ul {
+        width: 100% ;
+        
+        & li {
+          & p {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    & .imagem {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) {
   .caracteristicas {
     flex-direction: column;
     padding: 4rem 2rem;
-    
+
     & .textos {
       width: 100%;
       text-align: center;
-      
+
       & h2 {
         width: 100%;
         margin-bottom: 2rem;
         font-size: 2rem;
       }
-      
+
       & p {
         width: 100%;
         line-height: 1.5rem;
+        
       }
 
       & ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       
+
 
         margin: 1rem 0;
 
@@ -97,6 +130,10 @@
           flex-basis: 100%;
           margin: 1.5rem 0;
           padding: 0;
+
+          & p {
+            text-align: center;
+          }
 
         }
       }
