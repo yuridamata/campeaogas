@@ -60,7 +60,11 @@
 
   & .imagem {
     width: 50%;
-    height: auto;
+
+    & img {
+      width: 100%;
+      height: auto;
+    }
 
   }
 
@@ -81,8 +85,8 @@
       }
 
       & ul {
-        width: 100% ;
-        
+        width: 100%;
+
         & li {
           & p {
             text-align: left;
@@ -93,6 +97,13 @@
 
     & .imagem {
       width: 100%;
+      display: flex;
+      justify-content: center;
+
+      & img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }
@@ -115,7 +126,7 @@
       & p {
         width: 100%;
         line-height: 1.5rem;
-        
+
       }
 
       & ul {
