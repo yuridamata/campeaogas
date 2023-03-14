@@ -27,11 +27,11 @@ export default function Home() {
         <Hero />
         <QuemSomos />
          <TiposProdutos />
-        {/*<Caracteristicas />
-        <Promocao />
-        <MaisProdutos />
-        <Lojas />
-        <Footer /> */}
+         <Caracteristicas />
+         <Promocao />
+         <MaisProdutos />
+         <Lojas />
+        <Footer />
       </main>
     </>
   )

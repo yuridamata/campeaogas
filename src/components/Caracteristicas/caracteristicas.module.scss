@@ -1,3 +1,157 @@
-.caracteristicas{
-  background-color: gray;
+@import "../../styles/variables.scss";
+
+.caracteristicas {
+  background-color: $color-cinza-fundo;
+
+  padding: 7rem 10rem;
+  display: flex;
+  flex-direction: row;
+
+  & .textos {
+    width: 50%;
+
+    & h2 {
+      color: $color-azul-primario;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      width: 50%;
+    }
+
+    & p {
+      font-size: 1rem;
+      color: $color-cinza-escuro;
+      margin: 1rem 0;
+      width: 50%;
+    }
+
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+
+      margin: 1.5rem -10px;
+      padding: 0;
+      width: 100%;
+
+      & li {
+        flex-basis: calc(50% - 20px);
+        margin: 10px;
+        padding: 0;
+
+        font-size: 1.1rem;
+        color: $color-cinza-escuro;
+
+        & h6 {
+          margin: 0.5rem 0;
+          color: $color-azul-primario;
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          font-weight: 700;
+        }
+      }
+    }
+
+    &ul li:nth-child(odd) {
+      order: -1;
+    }
+  }
+
+  & .imagem {
+    width: 50%;
+
+    & img {
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: 1300px) {
+  .caracteristicas {
+    flex-direction: column;
+    padding: auto;
+
+    & .textos {
+      width: 100%;
+
+      & h2,
+      p {
+        text-align: center;
+        width: 100%;
+      }
+
+      & ul {
+        width: 100%;
+
+        & li {
+          & p {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    & .imagem {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      & img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .caracteristicas {
+    flex-direction: column;
+    padding: 4rem 2rem;
+
+    & .textos {
+      width: 100%;
+      text-align: center;
+
+      & h2 {
+        width: 100%;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+
+      & p {
+        width: 100%;
+        line-height: 1.5rem;
+
+      }
+
+      & ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+        margin: 1rem 0;
+
+        & li {
+          flex-basis: 100%;
+          margin: 1.5rem 0;
+          padding: 0;
+
+          & p {
+            text-align: center;
+          }
+
+        }
+      }
+    }
+
+    & .imagem {
+      display: none;
+    }
+  }
 }

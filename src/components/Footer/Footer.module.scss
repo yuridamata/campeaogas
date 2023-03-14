@@ -1,3 +1,78 @@
+@import '../../styles/variables.scss';
+
 .footer                                                                                                                                                                                                                                                                                           {
-  background-color: aquamarine;
+  background-color: $color-azul-primario;
+  color: $color-branco;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 7rem 10rem;
+
+  & .informacoes {
+    font-weight: 500;
+
+    & h3 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 1.5rem 0;
+      text-transform: uppercase;
+    }
+
+    & p {
+      line-height: 1.5rem;
+    }
+
+    & h6 {
+      line-height: 2rem;
+      margin: 2rem 0;
+    }
+
+  }
+
+  & .formulario {
+
+    width: 50%;
+
+    input, textarea {
+      background-color: $color-branco;
+      color: $color-cinza-escuro;
+      margin: 0.8rem;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border-radius: 16px;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      background-color: $color-vermelho;
+      color: $color-branco;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    padding: 7rem 2rem;
+
+    & .informacoes {
+      margin-bottom: 2rem;
+    }
+
+    & .formulario {
+      width: 100%;
+
+      input, textarea {
+        margin: 0.8rem 0;
+      }
+    }
+  }
 }

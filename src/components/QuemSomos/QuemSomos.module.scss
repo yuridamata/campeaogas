@@ -1,54 +1,91 @@
-
-
 @import "../../styles/variables.scss";
 
-.quemSomos{
+.quemSomos {
 
-  background-color: $color-branco;
+  background-color: $color-cinza-fundo;
   min-height: 30rem;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  padding-left: 1vw;
-  
 
-  & .textoWrapper{
-    width: 100vw;
+
+  & .textoWrapper {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+
+    width: 100%;
     text-align: center;
-    padding: 0 13rem;
-    & h2{
+    padding: 0 16rem;
+
+    & h2 {
       color: $color-vermelho;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
     }
-    & h1{
+
+    & h1 {
       color: $color-azul-primario;
       font-size: 3.75rem;
       font-weight: bold;
+      text-transform: uppercase;
     }
 
-    & p{
-      width: 100%;
+    & p {
+      margin-top: 1rem;
       text-align: center;
+      color: $color-cinza-escuro;
+      padding: 0 8rem;
     }
-    
+
   }
-  & button{      
+
+  & button {
     align-self: center;
-    margin-top: 5rem;
-    height: 3rem;
-    width: 11rem;
+    margin-top: 2.5rem;
+    padding: 1rem 2.5rem;
     text-align: center;
     color: $color-branco;
+    text-transform: uppercase;
     border-radius: 21px;
     background: $color-laranja-gradiente;
-    border-radius: 21px;
-    
+
     cursor: pointer;
-    &:hover{
+
+    &:hover {
       background: $color-branco;
       color: $color-laranja;
       border: 1px solid $color-laranja;
+    }
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .quemSomos {
+    padding: 4rem 2rem;
+
+    & .textoWrapper {
+      padding: 0 2rem;
+
+      & h2 {
+        font-size: 1rem;
+       }
+
+       & h1 {
+        font-size: 2.5rem;
+       }
+
+      & p {
+        line-height: 1.5rem;
+        padding: 0;
+      }
+    }
+
+    & button {
+      margin: 1.5rem 0;
     }
   }
 }
