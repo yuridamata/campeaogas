@@ -17,59 +17,69 @@ export default function MaisProdutos() {
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
-          <Produto
+           <Produto
             url="#"
             src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
+            descricao="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci."
             alt="Foto botijão"
           />
         </div>
-        <a href="#" className={styles.button}>Ver todos produtos</a>
+        <a href="#" className={styles.button}>
+          Ver todos produtos
+        </a>
       </div>
     </section>
   );
