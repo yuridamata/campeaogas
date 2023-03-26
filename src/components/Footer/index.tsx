@@ -5,7 +5,7 @@ export default function Footer(){
   return <footer>
     <div className={styles.footer}>
       <div className={styles.informacoes}>
-        <Image src="/../public/assets/images/logo-branca.png" alt="Logo Grupo Campeão Gás" width="333" height="72" />
+        <Image src="/../public/logo-branca.png" alt="Logo Grupo Campeão Gás" width="333" height="72" />
         <h3>Contato</h3>
         <p>Horário de Funcionamento</p>  
         <p>Segunda a Sábado - Das 07h às 21h</p>

@@ -14,56 +14,56 @@ export default function MaisProdutos() {
         <div className={styles.produtos}>
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
           />
           <Produto
             url="#"
-            src="/../public/assets/images/produto-botijao.png"
+            src="/../public/produto-botijao.png"
             nome="GÁS GLP P-13"
             preco="R$ 129,99"
             alt="Foto botijão"
