@@ -7,11 +7,17 @@ export default function TiposProdutos() {
       <div className={styles.texto}>
         <h2>Feito como melhor material</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-          molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla
-          congue, auctor euismod orci. Cras ornare diam vel leo hendrerit
-          sollicitudin. Nam nec sollicitudin quam. Donec ac purus et arcu
-          pharetra elementum. Aliquam tempus eleifend ligula id finibus.
+          Seja qual for a sua necessidade em casa ou na empresa, o melhor gás
+          nós temos aqui.
+        </p>
+        <p>
+          Faltou gás no seu restaurante?
+          <ul>
+            <li>utilize o botijão P-45 no lugar do botijão P-90 </li>
+            <li>economia para um momento de aperto</li>
+            <li>agilidade na instalação</li>
+          </ul>
+          <p>Seu gás acabou? Gás de qualidade e com procedência você encontra na campeão gás</p>
         </p>
         <button>Saiba Mais</button>
       </div>

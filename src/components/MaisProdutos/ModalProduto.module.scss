@@ -12,89 +12,110 @@
 
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
-}
 
-.modalContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    width: 100%;
-    max-width: 500px;
-    background-color: $color-branco;
-    border-radius: 0.5rem;
-    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-    position: relative;
-}
-
-.modalHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-
-    & .modalClose {
-        position: absolute;
-        top: 0.8rem;
-        right: 1.2rem;
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: $color-vermelho;
-        cursor: pointer;
-    }
-
-    & .modalTitle {
-        font-size: 1.5rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-        color: $color-azul-primario;
-    }
-}
-
-
-.modalBody {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-    font-size: 1rem;
-    margin-bottom: 1rem;
-
-    & .preco {
-        font-weight: bold;
-        color: $color-azul-primario;
-    }
-
-    & .descricao {
-        margin-bottom: 0.5rem;
+    & .modalContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
         width: 100%;
+        max-width: 55vw;
+        background-color: $color-branco;
+        border-radius: 0.5rem;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
+        position: relative;
+
+        & .modalHeader {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+
+            & .modalClose {
+                position: absolute;
+                top: 0.8rem;
+                right: 1.2rem;
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: $color-vermelho;
+                cursor: pointer;
+            }
+
+            & .modalTitle {
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+                color: $color-azul-primario;
+                text-align: center;
+                max-width: 90%;
+            }
+        }
+
+
+        & .modalBody {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            gap: 1rem;
+
+            font-size: 1rem;
+
+            padding: 0 1rem;
+            margin-bottom: 1rem;
+
+            & .preco {
+                font-weight: bold;
+                color: $color-azul-primario;
+            }
+
+            & .descricao {
+                margin-bottom: 0.5rem;
+                width: 100%;
+                line-height: 1.4;
+                font-size: 1.1rem;
+                text-align: left;
+            }
+
+        }
+
+        & .modalFooter {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        & .modalFooter button {
+            background-color: $color-azul-primario;
+            color: $color-branco;
+            text-transform: uppercase;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: 500;
+
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
     }
 }
 
-.modalFooter {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 1rem;
-}
 
-.modalFooter button {
-    background-color: $color-azul-primario;
-    color: $color-branco;
-    text-transform: uppercase;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 500;
-
-    cursor: pointer;
-}
 
 @media screen and (max-width: 768px) {
-    .modalContent {
-        max-width: 100%;
-        margin: 1rem;
+    .modal {
+        & .modalContent {
+            max-width: 100%;
+            margin: 1rem;
+
+            max-height: calc(100vh - 80px);
+            overflow-y: auto;
+
+            & .imagem {
+                width: auto;
+                height: auto;
+            }
+        }
     }
 }

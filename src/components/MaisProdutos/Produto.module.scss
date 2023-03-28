@@ -16,6 +16,8 @@
         color: $color-azul-primario;
         font-weight: 700;
         text-transform: uppercase;
+        max-width: 350px;
+        text-align: center;
     }
 
     & .preco {

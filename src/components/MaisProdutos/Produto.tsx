@@ -3,6 +3,7 @@ import ModalProduto from './ModalProduto';
 import Image from 'next/image';
 import styles from './Produto.module.scss';
 
+
 type ProdutoProps = {
   nome: string;
   preco: string;
@@ -10,6 +11,8 @@ type ProdutoProps = {
   alt: string;
   url: string;
   descricao: string;
+  descricaoSegundoParagrafo?: string;
+  descricaoTerceiroParagrafo?: string;
 };
 
 export default function Produto({
@@ -19,6 +22,8 @@ export default function Produto({
   alt,
   url,
   descricao,
+  descricaoSegundoParagrafo,
+  descricaoTerceiroParagrafo,
 }: ProdutoProps) {
   const [modalAberto, setModalAberto] = useState(false);
 
@@ -51,6 +56,8 @@ export default function Produto({
           src={src}
           alt={alt}
           descricao={descricao}
+          descricaoSegundoParagrafo={descricaoSegundoParagrafo}
+          descricaoTerceiroParagrafo={descricaoTerceiroParagrafo}
           closeModal={closeModal}
         />
       )}
