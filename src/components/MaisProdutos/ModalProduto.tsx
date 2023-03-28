@@ -27,7 +27,6 @@ export default function ModalProduto({
     <div className={styles.modal}>
       <div className={styles.modalContent}>
         <div className={styles.modalHeader}>
-          <span className={styles.modalTitle}>{nome}</span>
           <span className={styles.modalClose} onClick={closeModal}>
             ×
           </span>
@@ -40,6 +39,7 @@ export default function ModalProduto({
             width={345}
             height={345}
           />
+          <span className={styles.title}>{nome}</span>
           <p className={styles.descricao}>{descricao}</p>
           {descricaoSegundoParagrafo && <p className={styles.descricao}>{descricaoSegundoParagrafo}</p>}
           {descricaoTerceiroParagrafo && <p className={styles.descricao}>{descricaoTerceiroParagrafo}</p>}
