@@ -13,7 +13,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 100;
 
-    & .modalContent {
+    .modalContent {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -26,13 +26,13 @@
         box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
         position: relative;
 
-        & .modalHeader {
+        .modalHeader {
             display: flex;
             justify-content: center;
             align-items: center;
             width: 100%;
 
-            & .modalClose {
+            .modalClose {
                 position: absolute;
                 top: 0.8rem;
                 right: 1.2rem;
@@ -46,7 +46,7 @@
         }
 
 
-        & .modalBody {
+        .modalBody {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -58,12 +58,12 @@
             padding: 0 1rem;
             margin-bottom: 1rem;
 
-            & .preco {
+            .preco {
                 font-weight: bold;
                 color: $color-azul-primario;
             }
 
-            & .descricao {
+           .descricao {
                 margin-bottom: 0.5rem;
                 width: 100%;
                 line-height: 1.4;
@@ -71,7 +71,7 @@
                 text-align: left;
             }
 
-            & .title {
+            .title {
                 font-size: 1.5rem;
                 font-weight: bold;
                 margin-bottom: 0.5rem;
@@ -82,13 +82,13 @@
 
         }
 
-        & .modalFooter {
+        .modalFooter {
             display: flex;
             justify-content: flex-end;
             align-items: center;
         }
 
-        & .modalFooter button {
+        .modalFooter button {
             background-color: $color-azul-primario;
             color: $color-branco;
             text-transform: uppercase;
@@ -107,14 +107,14 @@
 
 @media screen and (max-width: 768px) {
     .modal {
-        & .modalContent {
+        .modalContent {
             max-width: 100%;
             margin: 1rem;
 
             max-height: calc(100vh - 80px);
             overflow-y: auto;
 
-            & .imagem {
+            .imagem {
                 width: auto;
                 height: auto;
             }
