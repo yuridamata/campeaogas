@@ -15,7 +15,7 @@ export default function Footer(){
 
         <p>WhatsApp - (61) 98888.8888</p>
       </div>
-      <div className={styles.formulario}>
+      <div className={styles.formulario} id="contato">
         <form method="">
           <input type="text" name="nome" id="nome" placeholder="Nome" />
           <input type="email" name="email" id="email" placeholder="Email" />

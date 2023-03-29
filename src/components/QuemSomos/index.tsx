@@ -2,7 +2,7 @@ import styles from "./QuemSomos.module.scss";
 
 export default function QuemSomos(){
   return <section className={styles.quemSomos}>
-    <div className={styles.textoWrapper}>
+    <div className={styles.textoWrapper} id="quemsomos">
       <h2>Por que escolher a campeão gás?</h2>
       <h1>Quem Somos</h1>
       <p>

@@ -1,7 +1,7 @@
 import styles from "./Hero.module.scss";
 
 export default function Hero() {
-  return <section className={styles.heroSection}>
+  return <section className={styles.heroSection} id="home">
     <div className={styles.text} >
       <h2>Qualidade e segurança</h2>
       <h1>Somos a Campeão gás</h1>

@@ -3,7 +3,7 @@ import styles from './tiposProdutos.module.scss';
 
 export default function TiposProdutos() {
   return (
-    <section className={styles.tiposProdutos}>
+    <section className={styles.tiposProdutos} id="produtos">
       <div className={styles.texto}>
         <h2>Feito como melhor material</h2>
         <p>
