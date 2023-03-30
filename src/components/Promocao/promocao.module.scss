@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  
+
   height: 60vh;
   width: 100vw;
   display: flex;
@@ -14,7 +14,7 @@
   align-items: center;
 
 
-  & .imagem { 
+  .imagem {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
     width: 60%;
   }
 
-  & .textos {
+  .textos {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,28 +34,28 @@
     color: $color-branco;
     text-align: left;
 
-    & h2 {
+    h2 {
       font-size: 2.5rem;
       font-weight: 700;
       margin-bottom: 1rem;
       text-transform: uppercase;
-      
+
     }
 
-    & h6 {
+    h6 {
       font-size: 1rem;
       font-weight: 500;
       margin-bottom: 1rem;
       text-transform: uppercase;
     }
 
-    & p {
+    p {
       font-size: 1rem;
       font-weight: 400;
       margin-bottom: 1rem;
     }
 
-    & button {
+    button {
       background-color: $color-branco;
       padding: 1rem;
       border: solid 1px $color-branco;
@@ -69,7 +69,7 @@
 
     }
 
-    & button:hover {
+    button:hover {
       background-color: $color-laranja;
       color: $color-branco;
       cursor: pointer;
@@ -79,15 +79,17 @@
 }
 
 @media screen and (max-width: 768px) {
-  .promocao { 
+  .promocao {
     width: 100vw;
-    & .imagem {
+
+    .imagem {
       display: hidden;
     }
-    & .textos {
+
+    .textos {
       width: 100%;
       align-items: center;
       text-align: center;
+    }
   }
-}
 }

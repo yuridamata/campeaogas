@@ -7,7 +7,7 @@
   align-items: center;
   padding: 2rem 0 4rem 0;
 
-  & .container {
+   .container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -18,13 +18,13 @@
     background-color: $color-cinza-claro;
     border-radius: 16px;
 
-    & .texto {
+     .texto {
       display: flex;
       flex-direction: column;
       padding: 2rem 0;
       height: 100%;
 
-      & h2 {
+       h2 {
         font-size: 1.5rem;
         font-weight: 700;
         color: $color-azul-primario;
@@ -32,40 +32,40 @@
         text-transform: uppercase;
       }
 
-      & p {
+       p {
         margin-bottom: 2rem;
       }
 
-      & p,
+       p,
       li {
         font-size: 0.8rem;
         font-weight: 400;
         color: $color-cinza-escuro;
       }
 
-      & .cidades {
+       .cidades {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
 
-        & .coluna {
+         .coluna {
 
-          & ul {
+           ul {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             width: 100%;
 
-            & li {
+             li {
               list-style: none;
               margin-bottom: 1rem;
 
-              & a:link,
+               a:link,
               a:visited {
                 font-weight: 500;
               }
 
-              & a:hover {
+               a:hover {
                 color: $color-azul-primario;
               }
             }
@@ -75,8 +75,8 @@
       }
     }
 
-    & .mapa {
-      & iframe {
+     .mapa {
+       iframe {
         border: 0;
         border-radius: 8px;
         width: 35vw;
@@ -88,16 +88,16 @@
 
 @media screen and (max-width: 768px) {
   .localidades {
-    & .container {
+     .container {
       flex-direction: column;
       gap: 1rem;
       width: 90vw;
 
-      & .texto {
-        & .cidades {
-          & .coluna {
-            & ul {
-              & li {
+       .texto {
+         .cidades {
+           .coluna {
+             ul {
+               li {
                 margin-bottom: 0.5rem;
               }
             }
@@ -105,8 +105,8 @@
         }
       }
 
-      & .mapa {
-        & iframe {
+       .mapa {
+         iframe {
           width: 70vw;
           height: 50vh;
           margin: 0;

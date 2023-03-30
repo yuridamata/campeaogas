@@ -7,10 +7,10 @@
   display: flex;
   flex-direction: row;
 
-  & .textos {
+   .textos {
     width: 50%;
 
-    & h2 {
+     h2 {
       color: $color-azul-primario;
       font-size: 2.5rem;
       text-transform: uppercase;
@@ -18,14 +18,14 @@
       width: 50%;
     }
 
-    & p {
+     p {
       font-size: 1rem;
       color: $color-cinza-escuro;
       margin: 1rem 0;
       width: 50%;
     }
 
-    & ul {
+     ul {
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
@@ -35,7 +35,7 @@
       padding: 0;
       width: 100%;
 
-      & li {
+       li {
         flex-basis: calc(50% - 20px);
         margin: 10px;
         padding: 0;
@@ -43,7 +43,7 @@
         font-size: 1.1rem;
         color: $color-cinza-escuro;
 
-        & h6 {
+         h6 {
           margin: 0.5rem 0;
           color: $color-azul-primario;
           font-size: 1.2rem;
@@ -53,15 +53,15 @@
       }
     }
 
-    &ul li:nth-child(odd) {
+    ul li:nth-child(odd) {
       order: -1;
     }
   }
 
-  & .imagem {
+   .imagem {
     width: 50%;
 
-    & img {
+     img {
       width: 100%;
       height: auto;
     }
@@ -75,32 +75,32 @@
     flex-direction: column;
     padding: auto;
 
-    & .textos {
+     .textos {
       width: 100%;
 
-      & h2,
+       h2,
       p {
         text-align: center;
         width: 100%;
       }
 
-      & ul {
+       ul {
         width: 100%;
 
-        & li {
-          & p {
+         li {
+           p {
             text-align: left;
           }
         }
       }
     }
 
-    & .imagem {
+     .imagem {
       width: 100%;
       display: flex;
       justify-content: center;
 
-      & img {
+       img {
         width: 100%;
         height: auto;
       }
@@ -113,23 +113,23 @@
     flex-direction: column;
     padding: 4rem 2rem;
 
-    & .textos {
+     .textos {
       width: 100%;
       text-align: center;
 
-      & h2 {
+       h2 {
         width: 100%;
         margin-bottom: 2rem;
         font-size: 2rem;
       }
 
-      & p {
+       p {
         width: 100%;
         line-height: 1.5rem;
 
       }
 
-      & ul {
+       ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -137,12 +137,12 @@
 
         margin: 1rem 0;
 
-        & li {
+         li {
           flex-basis: 100%;
           margin: 1.5rem 0;
           padding: 0;
 
-          & p {
+           p {
             text-align: center;
           }
 
@@ -150,7 +150,7 @@
       }
     }
 
-    & .imagem {
+     .imagem {
       display: none;
     }
   }

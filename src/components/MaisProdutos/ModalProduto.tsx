@@ -40,10 +40,10 @@ export default function ModalProduto({
             height={345}
           />
           <span className={styles.title}>{nome}</span>
+          <span className={styles.preco}>{preco}</span>
           <p className={styles.descricao}>{descricao}</p>
           {descricaoSegundoParagrafo && <p className={styles.descricao}>{descricaoSegundoParagrafo}</p>}
           {descricaoTerceiroParagrafo && <p className={styles.descricao}>{descricaoTerceiroParagrafo}</p>}
-          {/* <span className={styles.preco}>{preco}</span> */}
         </div>
         <div className={styles.modalFooter}>
           <button className={styles.button} onClick={closeModal}>
