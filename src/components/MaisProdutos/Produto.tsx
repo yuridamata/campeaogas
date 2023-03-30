@@ -43,6 +43,7 @@ export default function Produto({
         alt={alt}
         width={345}
         height={345}
+        onClick={openModal}
       />
       <span className={styles.nome}>{nome}</span>
       <span className={styles.preco}>{preco}</span>

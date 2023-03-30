@@ -23,9 +23,14 @@ export default function ModalProduto({
   descricaoTerceiroParagrafo,
   closeModal,
 }: ModalProdutoProps) {
+
+  const handleModalContentClick = (e: React.MouseEvent<HTMLDivElement>) => {
+    e.stopPropagation();
+  }
+
   return (
-    <div className={styles.modal}>
-      <div className={styles.modalContent}>
+    <div className={styles.modal} onClick={closeModal}>
+      <div className={styles.modalContent} onClick={handleModalContentClick}>
         <div className={styles.modalHeader}>
           <span className={styles.modalClose} onClick={closeModal}>
             ×
