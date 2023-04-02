@@ -8,12 +8,12 @@
     align-items: center;
     background-color: $color-cinza-fundo;
 
-    & .titulo {
+    .titulo {
         font-size: 2rem;
         font-weight: 700;
         margin-bottom: 1rem;
         text-transform: uppercase;
-        color: $color-azul-primario;
+        color: $color-azul-primario;        
     }
 
     p {
@@ -22,7 +22,7 @@
         text-align: center;
     }
 
-    & .produtos {
+     .produtos {
         margin: 2rem 0;
         display: flex;
         flex-direction: row;
@@ -34,7 +34,7 @@
         padding: 2rem 2rem;
     }
 
-    & .button {
+    .button {
         padding: 8px 44px;
         background-color: $color-branco;
         border-radius: 20px;
@@ -47,7 +47,7 @@
 
     }
 
-    & .button:hover {
+    .button:hover {
         background-color: $color-azul-primario;
         color: $color-branco;
     }
@@ -57,12 +57,12 @@
     .maisProdutos {
         padding: 6rem 0 2rem;
 
-        & p {
+        p {
             width: 80%;
             line-height: 1.5rem;
         }
 
-        & .produtos {
+        .produtos {
             padding: 2rem 0;
         }
     }

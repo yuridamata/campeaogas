@@ -13,22 +13,22 @@
   line-height: 1.3rem;
   
 
-  & .logoWrapper {
+   .logoWrapper {
     flex-grow: 8;
 
-    & img {
+     img {
       height: 4rem;
     }
   }
 
-  & .menu {
+   .menu {
 
     flex-grow: 2;
     display: flex;
     justify-content: space-between;
 
 
-    & li {
+     li {
       cursor: pointer;
 
       &:after {

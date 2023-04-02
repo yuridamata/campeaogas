@@ -6,24 +6,26 @@
     align-items: center;
     gap: 8px;
 
-    & .imagem {
+    .imagem {
         background-color: $color-branco;
         border-radius: 20px;
     }
 
-    & .nome {
+    .nome {
         margin-top: 8px;
         color: $color-azul-primario;
         font-weight: 700;
         text-transform: uppercase;
+        max-width: 350px;
+        text-align: center;
     }
 
-    & .preco {
+    .preco {
         color: $color-cinza-escuro;
         font-weight: 500;
     }
 
-    & .button {
+    .button {
         background-color: $color-azul-primario;
         color: $color-branco;
         text-transform: uppercase;
@@ -31,9 +33,10 @@
         border-radius: 20px;
         font-size: 0.8rem;
         font-weight: 500;
+        cursor: pointer;
     }
 
-    & .button:hover {
+    .button:hover {
         background-color: $color-vermelho;
     }
 

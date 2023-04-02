@@ -15,7 +15,7 @@ export default function Caracteristicas() {
           <ul>
             <li>
               <Image
-                src="/../public/assets/images/icon-entregar.png"
+                src="/../public/icon-entregar.png"
                 alt="Ícone moto"
                 width="53"
                 height="37"
@@ -28,7 +28,7 @@ export default function Caracteristicas() {
             </li>
             <li>
               <Image
-                src="/../public/assets/images/icon-comprar.png"
+                src="/../public/icon-comprar.png"
                 alt="ícone carrinho de compras"
                 width="42"
                 height="42"
@@ -41,7 +41,7 @@ export default function Caracteristicas() {
             </li>
             <li>
               <Image
-                src="/../public/assets/images/icon-encontrar.png"
+                src="/../public/icon-encontrar.png"
                 alt="Ícone pin de localização"
                 width="39"
                 height="55"
@@ -54,7 +54,7 @@ export default function Caracteristicas() {
             </li>
             <li>
               <Image
-                src="/../public/assets/images/icon-seguranca.png"
+                src="/../public/icon-seguranca.png"
                 alt="Ícone de segurança"
                 width="42"
                 height="52"
@@ -69,7 +69,7 @@ export default function Caracteristicas() {
         </div>
         <div className={styles.imagem}>
           <Image
-            src="/../public/assets/images/botijao-campeoes.png"
+            src="/../public/botijao-campeoes.png"
             alt="Imagem do botijão dentro de um círculo azul"
             width="750"
             height="750"

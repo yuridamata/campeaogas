@@ -2,12 +2,12 @@ import styles from "./QuemSomos.module.scss";
 
 export default function QuemSomos(){
   return <section className={styles.quemSomos}>
-    <div className={styles.textoWrapper}>
-      <h2>Lorem ipsum dolor sit amet,</h2>
+    <div className={styles.textoWrapper} id="quemsomos">
+      <h2>Por que escolher a campeão gás?</h2>
       <h1>Quem Somos</h1>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum molestie ultrices imperdiet. Duis dolor Leo, sollicitudin non nulla congue, auctor euismod orci. Cras ornare diam vel leo hendrerit sollicitudin. Nam nec sollicitudin quam. Donec ac purus et arcu pharetra elementum. Aliquam tempus eleifend ligula id finibus.
-      </p>
+      A Campeão Gás representa a Nacional Gás na venda e comercialização de GLP – Gás Liquefeito de Petróleo e é referência em segurança. Com frota própria, a Campeão Gás entrega buscando a eficácia e agilidade no atendimento dos seus clientes.</p>
+      <p>Nosso maior orgulho é fazer parte do seu dia-a-dia e estar perto da sua família. Seguimos também com ética e respeito na relação com os concorrentes e parceiros, e valorizamos nossos funcionários.</p>
     </div>
     <button>
       Saiba Mais
